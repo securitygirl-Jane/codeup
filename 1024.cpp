@@ -7,6 +7,7 @@ int main()
 	char array[BUFSIZ];
 
 	scanf("%s", array);
+	len = strlen(array);
 	
 	for(i=0; i<len; i++)
 	{
